@@ -1,0 +1,1208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venda de Cartas Pokémon</title>
+    <style>
+        /* Estilos gerais */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f3f3;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 3em;
+            margin-top: 50px;
+            color: #000000;
+            font-weight: bold;
+        }
+
+        h3 {
+            text-align: center;
+            font-size: 1.5em;
+            color: #333;
+            margin-top: 20px;
+        }
+
+        /* Container geral */
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
+            padding: 30px;
+        }
+
+        .card {
+            background-color: #fff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+            border-bottom: 4px solid #ffcb05;
+        }
+
+        .card-content {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .card h2 {
+            font-size: 1.8em;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .price {
+            font-size: 1.5em;
+            color: #ff5733;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .card p {
+            font-size: 1.2em;
+            color: #666;
+            margin-bottom: 15px;
+        }
+
+        .card h6 {
+            font-size: 1em;
+            color: #888;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer p {
+            font-size: 1em;
+            margin: 5px;
+        }
+
+        footer p a {
+            color: #ffcb05;
+            text-decoration: none;
+        }
+
+        footer p a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Venda de Cartas Pokémon</h1>
+    <h3>Minha Coleção:</h3>
+
+    <div class="container">
+        
+<div class="card">
+            <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/654/67e5a9ce9bc28-ijepx-dzcr0-040edb458cc4e3c466bcacfea9a6defb.jpg" alt="Reshiram e Charizard-GX">
+            <div class="card-content">
+                <h2>Kilowattrel da Kissera</h2>
+                <p class="price">R$ 99,70</p>
+                <h6>1 Un.</h6>
+            </div>
+        </div>
+
+    <div class="card">
+            <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/165/5962_SWSH254.jpg" alt="Reshiram e Charizard-GX">
+            <div class="card-content">
+                <h2>Palkia Forma Origem  <br> VASTRO</h2>
+                <p class="price">R$ 49,70</p>
+                <h6>1 Un.</h6>
+            </div>
+        </div> 
+        
+        <div class="card">
+            <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/342/67e718a676619-buhrt-bw3iv-96aef7592372ff612f85a2591541f820.jpg" alt="Reshiram e Charizard-GX">
+            <div class="card-content">
+                <h2>Zacian do Lupo  <br> EX</h2>
+                <p class="price">R$ 49,70</p>
+                <h6>1 Un.</h6>
+            </div>
+        </div> 
+        
+        <div class="card">
+            <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/612/66e30ac1eef4c-jnsxv-d6ynb-38b9d094ae0f5311dd3dcfbf65069bbb.jpg" alt="Reshiram e Charizard-GX">
+            <div class="card-content">
+                <h2>Hydrapple  <br> EX</h2>
+                <p class="price">R$ 19,70</p>
+                <h6>1 Un.</h6>
+            </div>
+        </div> 
+        
+        <div class="card">
+            <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/133/4675_44.jpg" alt="Reshiram e Charizard-GX">
+            <div class="card-content">
+                <h2>Magcargo<br> GX</h2>
+                <p class="price">R$ 14,70</p>
+                <h6>1 Un.</h6>
+            </div>
+</div> 
+        <div class="card">
+            <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/612/66e30aa960bfc-xv4fh-gdy9u-38b9d094ae0f5311dd3dcfbf65069bbb.jpg" alt="Reshiram e Charizard-GX">
+            <div class="card-content">
+                <h2>Venusaur <br> EX</h2>
+                <p class="price">R$ 49,70</p>
+                <h6>1 Un.</h6>
+            </div>
+        </div>
+
+         <div class="card">
+            <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/253/260s_11.jpg" alt="Reshiram e Charizard-GX">
+            <div class="card-content">
+                <h2>Mew <br> 25 Anos</h2>
+                <p class="price">R$ 49,70</p>
+                <h6>1 Un.</h6>
+            </div>
+        </div> 
+        
+        <div class="card">
+            <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/654/67e5a91d2daff-v7xph-3jq0h-040edb458cc4e3c466bcacfea9a6defb.jpg" alt="Reshiram e Charizard-GX">
+            <div class="card-content">
+                <h2>Mimikyu  <br> EX</h2>
+                <p class="price">R$ 14,70</p>
+                <h6>1 Un.</h6>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/338/5618_104.jpg" alt="Reshiram e Charizard-GX">
+            <div class="card-content">
+                <h2>Duraludon <br> Vmax</h2>
+                <p class="price">R$ 39,70</p>
+                <h6>1 Un.</h6>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/255/5723_114.jpg" alt="Pikachu e Zekrom-GX">
+            <div class="card-content">
+                <h2>Mew <br> Vmax</h2>
+                <p class="price">R$ 69,70</p>
+                <h6>1 Un.</h6>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/505/65b2d6a5a4588-5c0s7-gnlhw-fbe35c1a97a95bb5a09599d32d08a022.jpg" alt="Abra Shiny">
+            <div class="card-content">
+                <h2>Abra Shiny</h2>
+                <p class="price">R$ 29,70</p>
+                <h6>1 Un.</h6>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://m.media-amazon.com/images/I/51OCYYPc5KL._AC_UF894,1000_QL80_.jpg" alt="Latios Full Art">
+            <div class="card-content">
+                <h2>Latios Full Art</h2>
+                <p class="price">R$ 139,99</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrpMv7hS8oZQ8O9aM10QYtK9EjEi01NZrlBg&s" alt="Mélia Treinadora">
+            <div class="card-content">
+                <h2>Mélia Treinadora</h2>
+                <p class="price">R$ 44,70</p>
+                <h6>1 Un.</h6>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://m.media-amazon.com/images/I/61JZYx86ggL.jpg" alt="Ampharos EX">
+            <div class="card-content">
+                <h2>Ampharos EX</h2>
+                <p class="price">R$ 24,99</p>
+                <h6>1 Un.</h6>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://img.mypcards.com/img/2/1839/pokemon_sv2_130_193/pokemon_sv2_130_193_en.jpg" alt="Clodsire de Paldea EX">
+            <div class="card-content">
+                <h2>Clodsire de Paldea EX</h2>
+                <p class="price">R$ 14,90</p>
+                <h6>1 Un.</h6>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/612/66e30bad87db1-sn90i-bvf23-38b9d094ae0f5311dd3dcfbf65069bbb.jpg" alt="Clodsire de Paldea EX">
+            <div class="card-content">
+                <h2>Cyclizar</h2>
+                <p class="price">R$ 0,50</p>
+                <h6>1 Un.</h6>
+            </div>
+        </div>
+
+    <div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/654/67e5a99458b57-t20ir-3xwva-040edb458cc4e3c466bcacfea9a6defb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Wooloo do Lupo </h2>
+            <p class="price">R$ 1,00</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/127.101.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Eevee</h2>
+            <p class="price">R$ 4,50</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div>
+    
+
+    <div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/529/65fd7f322caf4-c9zs4-fkms8-ec0dc1d7136803522bc5ab4702d22c49.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Dudunsparce </h2>
+            <p class="price">R$ 6,00</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div>
+
+
+    <div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/439/65450a908fa1a-5kp26-z86ht-547d72be284b44ee1574559ed9230efb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Miltank </h2>
+            <p class="price">R$ 0,50</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div>
+    
+
+    <div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/612/66e30ae92ac90-o8q36-sr6hd-38b9d094ae0f5311dd3dcfbf65069bbb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Salazzle </h2>
+            <p class="price">R$ 0,40</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div>
+    
+
+    <div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/612/66e30ad387a66-p9f8r-vhx0q-38b9d094ae0f5311dd3dcfbf65069bbb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Salandit </h2>
+            <p class="price">R$ 0,35</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div>
+    
+
+    <div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/118/185_24.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Magcargo </h2>
+            <p class="price">R$ 4,00</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div>
+    
+
+    <div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/175/222_027.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Slugma </h2>
+            <p class="price">R$ 1,00</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div>
+    
+
+    <div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/529/65fd7ee5b6cae-b1w5d-czier-ec0dc1d7136803522bc5ab4702d22c49.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Meditite</h2>
+            <p class="price">R$ 0,40</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div>
+    
+
+    <div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/529/65fd7e656e570-trfcn-l62d7-ec0dc1d7136803522bc5ab4702d22c49.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Pineco </h2>
+            <p class="price">R$ 0,35</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div>
+    
+
+    <div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/529/65fd7f15b4e9e-b6q0k-xnjwt-ec0dc1d7136803522bc5ab4702d22c49.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Mawile </h2>
+            <p class="price">R$ 0,40</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div>
+    
+ <div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/529/65fd7f2d69c33-s6ng1-zmfki-ec0dc1d7136803522bc5ab4702d22c49.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Hoothoot  </h2>
+            <p class="price">R$ 0,50</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/654/67e5a9664f9ef-cg2tr-5azku-040edb458cc4e3c466bcacfea9a6defb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Cufant</h2>
+            <p class="price">R$ 0,40</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/654/67e5a94423505-ae021-mlztj-040edb458cc4e3c466bcacfea9a6defb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Klawf  </h2>
+            <p class="price">R$ 0,50</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/654/67e5a8a5f3c7a-jext5-fk9qw-040edb458cc4e3c466bcacfea9a6defb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Metapod  </h2>
+            <p class="price">R$ 0,40</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/529/65fd7eea9be86-w349m-2l06i-ec0dc1d7136803522bc5ab4702d22c49.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Drilbur <br> [Reverse foil] </h2>
+            <p class="price">R$ 1,00</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/529/65fd7ef279af9-bdjvl-x2rob-ec0dc1d7136803522bc5ab4702d22c49.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Lycanroc  </h2>
+            <p class="price">R$ 0,50</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/654/67e5a93a76344-qf7jk-89pol-040edb458cc4e3c466bcacfea9a6defb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Lycanroc <br> [Foil] </h2>
+            <p class="price">R$ 2,00</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/612/66e30ba8dbab4-32zfl-cer4m-38b9d094ae0f5311dd3dcfbf65069bbb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Dubwool  </h2>
+            <p class="price">R$ 0,40</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/654/67e5a99624502-dh8s2-d1cxb-040edb458cc4e3c466bcacfea9a6defb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Dubwool <br> [Ultra Foil] </h2>
+            <p class="price">R$ 3,00</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/654/67e5a99458b57-t20ir-3xwva-040edb458cc4e3c466bcacfea9a6defb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Wooloo do lupo <br> [Ultra foil] </h2>
+            <p class="price">R$ 2,50</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/654/67e5a99458b57-t20ir-3xwva-040edb458cc4e3c466bcacfea9a6defb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Wooloo do Lupo<br> [Reverse Foil] </h2>
+            <p class="price">R$ 1,50</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/406/33s_026.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Charmander </h2>
+            <p class="price">R$ 4,00</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/406/34s_027.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Charmeleon  </h2>
+            <p class="price">R$ 4,00</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/654/67e5a94993774-s6hdf-6lze9-040edb458cc4e3c466bcacfea9a6defb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Wooper de Paldea </h2>
+            <p class="price">R$ 0,40</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/101/482_SM224.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Celebi  </h2>
+            <p class="price">R$ 3,50</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/245/4996_120.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Flapple  </h2>
+            <p class="price">R$ 1,50</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/245/329_54.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Mareep  </h2>
+            <p class="price">R$ 0,40</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/289/290_009.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Flaaffy  </h2>
+            <p class="price">R$ 1,50</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/612/66e30ac02441c-8cwhd-2zsv8-38b9d094ae0f5311dd3dcfbf65069bbb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Dipplin  </h2>
+            <p class="price">R$ 0,40</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/439/65450b5ba5283-8lm40-lgq75-547d72be284b44ee1574559ed9230efb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Seadra  </h2>
+            <p class="price">R$ 0,50</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/102/4284.112.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Stufful  </h2>
+            <p class="price">R$ 0,75</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/102/4236.113.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Bewear  </h2>
+            <p class="price">R$ 0,75</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/102/83.52.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Gothita  </h2>
+            <p class="price">R$ 0,40</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/102/84.53.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Gothorita  </h2>
+            <p class="price">R$ 0,60</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/654/67e5a8f27823b-dqbpw-b4xdg-040edb458cc4e3c466bcacfea9a6defb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Graveler de Alola  </h2>
+            <p class="price">R$ 0,50</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/654/67e5a8f4417e2-p2qe3-ng6bh-040edb458cc4e3c466bcacfea9a6defb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Golem de Alola <br> [Carta de Error] </h2>
+            <p class="price">R$ 10,00</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4238.18.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Bounsweet  </h2>
+            <p class="price">R$ 0,40</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/439/65450b83ed579-fthvl-1w48g-547d72be284b44ee1574559ed9230efb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Steenee  </h2>
+            <p class="price">R$ 0,60</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/654/67e5a8a41f6c7-wf7xz-uzg1w-040edb458cc4e3c466bcacfea9a6defb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Caterpie  </h2>
+            <p class="price">R$ 0,35</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/654/67e5a8a5f3c7a-jext5-fk9qw-040edb458cc4e3c466bcacfea9a6defb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Metapod  </h2>
+            <p class="price">R$ 0,40</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/1801_5.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Cottonee  </h2>
+            <p class="price">R$ 0,30</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/1802_6.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Whimsicott  </h2>
+            <p class="price">R$ 0,70</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4958_20.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Gossifleur  </h2>
+            <p class="price">R$ 0,40</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4956_21.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Eldegoss  </h2>
+            <p class="price">R$ 0,60</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/654/67e5a8e277ae1-or2fs-x3zqg-040edb458cc4e3c466bcacfea9a6defb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Lombre  </h2>
+            <p class="price">R$ 0,40</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/654/67e5a8e455675-15m4c-92j6q-040edb458cc4e3c466bcacfea9a6defb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Ludicolo <br> [Foil] </h2>
+            <p class="price">R$ 1,00</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/255/4918_180.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Meowth de Galar </h2>
+            <p class="price">R$ 0,50</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/169/4919_127.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Perrserker de Galar </h2>
+            <p class="price">R$ 1,00</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/654/67e5a950b385b-1rl2g-k8hda-040edb458cc4e3c466bcacfea9a6defb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Zorua do N  </h2>
+            <p class="price">R$ 0,50</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/557/66a3f1a4b87b3-rx59e-v2oal-162bd060035e7a4f5821bdd6bfb03c33.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Furfrou <br> [Reverse Foil] </h2>
+            <p class="price">R$ 1,25</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/240/659f149761eb8-zy9n5-n0eob-f39d53b30d68550936da4ffea7ad6163.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Trapinch  </h2>
+            <p class="price">R$ 0,35</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/163/311_109.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Vibrava  </h2>
+            <p class="price">R$ 0,65</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/439/65450aab20bbb-p4ung-nzfg2-547d72be284b44ee1574559ed9230efb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Honedge  </h2>
+            <p class="price">R$ 0,50</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/439/65450aacbc440-k74yp-kel0u-547d72be284b44ee1574559ed9230efb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Doublade  </h2>
+            <p class="price">R$ 0,50</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/391/4314s_116.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Rockruff  </h2>
+            <p class="price">R$ 0,50</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/654/67e5a93a76344-qf7jk-89pol-040edb458cc4e3c466bcacfea9a6defb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Lycanroc <br> [Foil]</h2>
+            <p class="price">R$ 3,50</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/529/65fd7ef279af9-bdjvl-x2rob-ec0dc1d7136803522bc5ab4702d22c49.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Lycanroc</h2>
+            <p class="price">R$ 0,50</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/612/66e30b87da1f6-odpw8-gm9yf-38b9d094ae0f5311dd3dcfbf65069bbb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Duraludon </h2>
+            <p class="price">R$ 0,50</p>
+            <h6>1 Un.</h6>
+       </div>
+    </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/612/66e30b87da1f6-odpw8-gm9yf-38b9d094ae0f5311dd3dcfbf65069bbb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Duraludon <br> [Reverse Foil]</h2>
+            <p class="price">R$ 1,50</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/612/66e30b898131f-67cpt-g17k3-38b9d094ae0f5311dd3dcfbf65069bbb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Archaludon <br> [Foil] </h2>
+            <p class="price">R$ 4,00</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/612/66e30ad387a66-p9f8r-vhx0q-38b9d094ae0f5311dd3dcfbf65069bbb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Salandit  </h2>
+            <p class="price">R$ 0,35</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/612/66e30ae92ac90-o8q36-sr6hd-38b9d094ae0f5311dd3dcfbf65069bbb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Salazzle  </h2>
+            <p class="price">R$ 0,40</p>
+            <h6>1 Un.</h6>
+        </div>
+    </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/612/66e30b611541a-edplx-v4w2z-38b9d094ae0f5311dd3dcfbf65069bbb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Mienfoo  </h2>
+            <p class="price">R$ 0,35</p>
+            <h6>1 Un.</h6>
+        </div>
+     </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/612/66e30b62f341d-yudos-bosx5-38b9d094ae0f5311dd3dcfbf65069bbb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Mienshao   </h2>
+            <p class="price">R$ 0,40</p>
+            <h6>1 Un.</h6>
+        </div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/406/4245s_114.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Crabrawler   </h2>
+            <p class="price">R$ 0,45</p>
+            <h6>1 Un.</h6>
+        </div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/612/66e30b1bc8c57-nylrw-5f7oy-38b9d094ae0f5311dd3dcfbf65069bbb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Crabominable   </h2>
+            <p class="price">R$ 0,55</p>
+            <h6>1 Un.</h6>
+        </div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/240/659f14588b6db-0b9gf-59tsc-f39d53b30d68550936da4ffea7ad6163.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Yanma   </h2>
+            <p class="price">R$ 0,35</p>
+            <h6>1 Un.</h6>
+        </div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/175/878_007.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Yanmega   </h2>
+            <p class="price">R$ 1,00</p>
+            <h6>1 Un.</h6>
+        </div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/175/4269_143.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Pikipek   </h2>
+            <p class="price">R$ 0,35</p>
+            <h6>1 Un.</h6>
+        </div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4292.107.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Trumbeak   </h2>
+            <p class="price">R$ 0,50</p>
+            <h6>1 Un.</h6>
+        </div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/505/65b2d5feeb200-hbpd5-gad97-fbe35c1a97a95bb5a09599d32d08a022.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Mankey</h2>
+            <p class="price">R$ 0,35</p>
+            <h6>1 Un.</h6>
+        </div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/505/65b2d6007e76b-3zml1-k7v3o-fbe35c1a97a95bb5a09599d32d08a022.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Primeape   </h2>
+            <p class="price">R$ 0,50</p>
+            <h6>1 Un.</h6>
+        </div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/411/169s_057.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Primeape  <br> [Reverse Foil] </h2>
+            <p class="price">R$ 1,50</p>
+            <h6>1 Un.</h6>
+        </div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/343/6337s_109.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Annihilape   </h2>
+            <p class="price">R$ 1,50</p>
+            <h6>1 Un.</h6>
+        </div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4898_11.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Grookey   </h2>
+            <p class="price">R$ 0,35</p>
+            <h6>1 Un.</h6>
+        </div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4970_15.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Rillaboom   </h2>
+            <p class="price">R$ 1,50</p>
+            <h6>1 Un.</h6>
+        </div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4950_60.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Chewtle   </h2>
+            <p class="price">R$ 0,35</p>
+            <h6>1 Un.</h6>
+        </div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/612/66e30b1f38ac9-simfk-sjgf0-38b9d094ae0f5311dd3dcfbf65069bbb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Drednaw  <br> [Foil]  </h2>
+            <p class="price">R$ 1,50</p>
+            <h6>1 Un.</h6>
+        </div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4954_61.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Drednaw</h2>
+            <p class="price">R$ 1,65</p>
+        </div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/439/65450a9960e0e-qn4xt-zpqvn-547d72be284b44ee1574559ed9230efb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Tatsugiri   </h2>
+            <p class="price">R$ 3,00</p>
+            <h6>1 Un.</h6>
+        </div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/654/67e5a926511bf-d964f-4u2ob-040edb458cc4e3c466bcacfea9a6defb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Milcery   </h2>
+            <p class="price">R$ 0,40</p>
+            <h6>1 Un.</h6>
+        </div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/612/66e30b431e4d7-rv4a1-gjx9v-38b9d094ae0f5311dd3dcfbf65069bbb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Alcremie  <br> [Foil] </h2>
+            <p class="price">R$ 1,60</p>
+            <h6>1 Un.</h6>
+        </div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/7/630.png" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Bunnelby   </h2>
+            <p class="price">R$ 0,50</p>
+            <h6>1 Un.</h6>
+        </div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/406/631s_113.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Diggersby   </h2>
+            <p class="price">R$ 0,50</p>
+            <h6>1 Un.</h6>
+        </div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/391/6392s_100.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Tinkatink   </h2>
+            <p class="price">R$ 0,40</p>
+            <h6>1 Un.</h6>
+        </div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/342/672e58509ddd2-d24uh-3i41o-96aef7592372ff612f85a2591541f820.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Tinkaton  <br> [Ultra Foil] <br> Promo</h2>
+            <p class="price">R$ 3,60</p>
+            <h6>1 Un.</h6>
+        </div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/612/66e30bab892ed-dpie6-a6t1b-38b9d094ae0f5311dd3dcfbf65069bbb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Lechonk   </h2>
+            <p class="price">R$ 0,35</p>
+            <h6>1 Un.</h6>
+        </div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/343/6360s_157.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Oinkologne   </h2>
+            <p class="price">R$ 0,65</p>
+            <h6>1 Un.</h6>
+        </div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/529/65fd7e8bab3a3-zlqb9-qlofs-ec0dc1d7136803522bc5ab4702d22c49.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Ponyta   </h2>
+            <p class="price">R$ 0,25</p>
+            <h6>1 Un.</h6>
+        </div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/529/65fd7e8d48943-8qjr3-0e4qf-ec0dc1d7136803522bc5ab4702d22c49.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Rapidash   </h2>
+            <p class="price">R$ 0,50</p>
+            <h6>1 Un.</h6>
+        </div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/639/67350d2e6c0b7-va30n-vphb4-82ffda375fa28fa9a70a0bb6b0e2b3d6.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Wattrel   </h2>
+            <p class="price">R$ 0,35</p>
+            <h6>1 Un.</h6>
+        </div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/391/6301_082.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Kilowattrel  <br> [Reverse Foil]  </h2>
+            <p class="price">R$ 0,65</p>
+            <h6>1 Un.</h6>
+        </div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/612/66e30ab85400d-dxkon-imdkt-38b9d094ae0f5311dd3dcfbf65069bbb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Grubbin   </h2>
+            <p class="price">R$ 0,35</p>
+            <h6>1 Un.</h6>
+        </div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/612/66e30b2caf578-xyscf-ihovt-38b9d094ae0f5311dd3dcfbf65069bbb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Charjabug   </h2>
+            <p class="price">R$ 0,40</p>
+            <h6>1 Un.</h6>
+        </div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/612/66e30ac3c31bd-b59ta-wt37a-38b9d094ae0f5311dd3dcfbf65069bbb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Nymble   </h2>
+            <p class="price">R$ 0,35</p>
+            <h6>1 Un.</h6>
+        </div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/612/66e30ac58e860-ngmdw-lvrks-38b9d094ae0f5311dd3dcfbf65069bbb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Lokix  </h2>
+            <p class="price">R$ 0,40</p>
+            <h6>1 Un.</h6>
+        </div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/612/66e30bb188c4d-yxebt-3jvkp-38b9d094ae0f5311dd3dcfbf65069bbb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Fóssil Casca Arcaico  </h2>
+            <p class="price">R$ 0,40</p>
+            <h6>1 Un.</h6>
+        </div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/612/66e30b13769fe-lih13-8l96y-38b9d094ae0f5311dd3dcfbf65069bbb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Tirtouga   </h2>
+            <p class="price">R$ 0,35</p>
+            <h6>1 Un.</h6>
+        </div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/391/763s_160.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Slakoth   </h2>
+            <p class="price">R$ 0,50</p>
+            <h6>1 Un.</h6>
+        </div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/391/759s_161.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Vigoroth   </h2>
+            <p class="price">R$ 0,50</p>
+            <h6>1 Un.</h6>
+        </div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/612/66e30b4b5c9ff-3i2bj-7ufwd-38b9d094ae0f5311dd3dcfbf65069bbb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Greavard   </h2>
+            <p class="price">R$ 0,35</p>
+            <h6>1 Un.</h6>
+        </div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/342/66560913e8172-zkxel-h64nt-96aef7592372ff612f85a2591541f820.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Houndstone <br> [Ultra Foil] <br> Promo </h2>
+            <p class="price">R$ 2,65</p>
+            <h6>1 Un.</h6>
+        </div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/494_45.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Goldeen   </h2>
+            <p class="price">R$ 0,35</p>
+            <h6>1 Un.</h6>
+        </div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/92/491.28.png" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Seaking   </h2>
+            <p class="price">R$ 0,65</p>
+            <h6>1 Un.</h6>
+        </div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/102/1654.72.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Pancham   </h2>
+            <p class="price">R$ 0,35</p>
+            <h6>1 Un.</h6>
+        </div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/612/66e30b7223ac1-cpvae-ou982-38b9d094ae0f5311dd3dcfbf65069bbb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Pangoro   </h2>
+            <p class="price">R$ 0,40</p>
+            <h6>1 Un.</h6>
+        </div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/243/607s_69.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Inkay   </h2>
+            <p class="price">R$ 0,75</p>
+            <h6>1 Un.</h6>
+        </div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/4/632.png" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Fletchling   </h2>
+            <p class="price">R$ 0,60</p>
+            <h6>1 Un.</h6>
+        </div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/612/66e30ba3870b7-x1lag-7m56a-38b9d094ae0f5311dd3dcfbf65069bbb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Fletchinder  </h2>
+            <p class="price">R$ 0,40</p>
+            <h6>1 Un.</h6>
+        </div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/612/66e30ba588382-uhkpq-r3xei-38b9d094ae0f5311dd3dcfbf65069bbb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Talonflame   </h2>
+            <p class="price">R$ 0,50</p>
+            <h6>1 Un.</h6>
+        </div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/240/659f14a2a404a-q2eac-yj7cg-f39d53b30d68550936da4ffea7ad6163.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Nickit   </h2>
+            <p class="price">R$ 0,35</p>
+            <h6>1 Un.</h6>
+        </div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/612/66e30aaf0faca-epvgt-tsq1o-38b9d094ae0f5311dd3dcfbf65069bbb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Celebi <br> [Reverse Foil]  </h2>
+            <p class="price">R$ 0,75</p>
+            <h6>1 Un.</h6>
+        </div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/439/65450b0dabc47-qtkb7-2lrxa-547d72be284b44ee1574559ed9230efb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Yamask   </h2>
+            <p class="price">R$ 0,40</p>
+            <h6>1 Un.</h6>
+        </div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/639/67350d4d6c34e-fwh8c-e8dbs-82ffda375fa28fa9a70a0bb6b0e2b3d6.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Cofagrigus <br> [Foil]  </h2>
+            <p class="price">R$ 1,60</p>
+            <h6>1 Un.</h6>
+        </div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/439/65450b6295fb4-ac41h-digbt-547d72be284b44ee1574559ed9230efb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Mariposa Férrea <br> [Foil]  </h2>
+            <p class="price">R$ 5,00</p>
+            <h6>1 Un.</h6>
+        </div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/612/66e30b5062b3e-wf9o3-5mjw1-38b9d094ae0f5311dd3dcfbf65069bbb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Marowak   </h2>
+            <p class="price">R$ 0,50</p>
+            <h6>1 Un.</h6>
+        </div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/167/4929_89.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Sinistea   </h2>
+            <p class="price">R$ 0,35</p>
+            <h6>1 Un.</h6>
+        </div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/406/4920s_098.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Polteageist   </h2>
+            <p class="price">R$ 0,40</p>
+            <h6>1 Un.</h6>
+        </div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4243.64.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Cosmog   </h2>
+            <p class="price">R$ 0,50</p>
+            <h6>1 Un.</h6>
+        </div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/100/4242.65.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Cosmoem   </h2>
+            <p class="price">R$ 0,35</p>
+            <h6>1 Un.</h6>
+        </div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/639/67350ce9c20cd-07ugl-tzoyx-82ffda375fa28fa9a70a0bb6b0e2b3d6.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Fuecoco   </h2>
+            <p class="price">R$ 0,35</p>
+            <h6>1 Un.</h6>
+        </div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/439/65450b662af5f-f7cnw-kspq5-547d72be284b44ee1574559ed9230efb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Crocalor   </h2>
+            <p class="price">R$ 0,65</p>
+            <h6>1 Un.</h6>
+        </div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/654/67e5a9315461b-7uvr0-2hu5z-040edb458cc4e3c466bcacfea9a6defb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Larvitar   </h2>
+            <p class="price">R$ 0,35</p>
+            <h6>1 Un.</h6></div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/406/691s_106.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Pupitar   </h2>
+            <p class="price">R$ 0,65</p>
+            <h6>1 Un.</h6></div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/96/687.56.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Tyranitar    </h2>
+            <p class="price">R$ 1,50</p>
+            <h6>1 Un.</h6></div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/529/65fd7f4204bd1-ydxr3-xgv4s-ec0dc1d7136803522bc5ab4702d22c49.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Jugulares Férreas   </h2>
+            <p class="price">R$ 1,00</p>
+            <h6>1 Un.</h6></div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/612/66e30b9549d00-azfu7-go6tx-38b9d094ae0f5311dd3dcfbf65069bbb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Hoothoot <br> [Reverse Foil]   </h2>
+            <p class="price">R$ 1,00</p>
+            <h6>1 Un.</h6></div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/654/67e5a91b63e55-7wo9p-7f1uh-040edb458cc4e3c466bcacfea9a6defb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Comfey da Lílian <br> [Reverse Foil]   </h2>
+            <p class="price">R$ 1,00</p>
+            <h6>1 Un.</h6></div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/103/1957.59.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Espurr    </h2>
+            <p class="price">R$ 0,50</p>
+            <h6>1 Un.</h6></div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/103/1690.60.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Meowstic    </h2>
+            <p class="price">R$ 1,00</p>
+            <h6>1 Un.</h6></div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/278/115s_148.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Bouffalant   </h2>
+            <p class="price">R$ 3,00</p>
+            <h6>1 Un.</h6></div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/654/67e5a962bff64-16knq-hcwal-040edb458cc4e3c466bcacfea9a6defb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Magearna  <br> [Reverse Foil]  </h2>
+            <p class="price">R$ 2,00</p>
+            <h6>1 Un.</h6></div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/612/66e30b847d799-nk8lm-qd06j-38b9d094ae0f5311dd3dcfbf65069bbb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Melmetal <br> [Foil]   </h2>
+            <p class="price">R$ 5,00</p>
+            <h6>1 Un.</h6></div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/612/66e30ab679066-njd43-pk58u-38b9d094ae0f5311dd3dcfbf65069bbb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Rotom Corte   </h2>
+            <p class="price">R$ 0,35</p>
+            <h6>1 Un.</h6></div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/95/536.49.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Rhyhorn    </h2>
+            <p class="price">R$ 0,50</p>
+            <h6>1 Un.</h6></div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/612/66e30b5dc8c79-iz36l-ze245-38b9d094ae0f5311dd3dcfbf65069bbb.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Riolu    </h2>
+            <p class="price">R$ 0,35</p>
+            <h6>1 Un.</h6></div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/102/819.11.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Litwick    </h2>
+            <p class="price">R$ 0,50</p>
+            <h6>1 Un.</h6></div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/278/820s_025.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Lampent   </h2>
+            <p class="price">R$ 0,50</p>
+            <h6>1 Un.</h6></div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/253/44s_02.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Reshiram    </h2>
+            <p class="price">R$ 5,00</p>
+            <h6>1 Un.</h6></div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/247/13_12.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Chimchar    </h2>
+            <p class="price">R$ 3,00</p>
+            <h6>1 Un.</h6></div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/639/67350d234f18f-ymz1p-2j30d-82ffda375fa28fa9a70a0bb6b0e2b3d6.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Magnezone    </h2>
+            <p class="price">R$ 0,50</p>
+            <h6>1 Un.</h6></div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/639/67350d1b3e49d-oq83z-0rohe-82ffda375fa28fa9a70a0bb6b0e2b3d6.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Chien-Pao  <br>[Foil] </h2>
+            <p class="price">R$ 4,00</p>
+            <h6>1 Un.</h6></div>  </div><div class="card">
+        <img src="https://repositorio.sbrauble.com/arquivos/in/pokemon_bkp/cd/406/6557s_062.jpg" alt="Clodsire de Paldea EX">
+        <div class="card-content">
+            <h2>Palafin  <br> [Foil]  </h2>
+            <p class="price">R$ 3,00</p>
+            <h6>1 Un.</h6></div>  </div><div class="card">
+        </div>
+    </div>
+    
+</div>
+
+    <footer>
+        <p>Alguma dúvida? <a href="tel:+5548984145646">Ligue para este número</a> ou fale comigo pelo <a href="https://wa.me/5548984145646" target="_blank">WhatsApp</a>.</p>
+    </footer>
+
+</body>
+</html>
